@@ -1,0 +1,23 @@
+{
+
+	"my html":{
+		"prefix": "aa",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"<head>",
+			"<style>",
+			"</style>",
+			"</head>",
+			"<body>",
+			"$1",
+			"</body>",
+			"</html>"
+		]
+	},
+
+	"your html": {
+		"prefix": "bb",
+		"body": "bbbbbbbbbbbbiajilaje4aljifgaljwet"
+	}
+}
