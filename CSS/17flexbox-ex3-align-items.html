@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container{display: flex;
+height: 300px;
+justify-content: space-evenly;
+align-items: baseline;}
+
+/* stretch (default): stretch to fill the container (still respect min-width/max-width)
+flex-start / start / self-start: items are placed at the start of the cross axis. The difference between these is subtle, and is about respecting the flex-direction rules or the writing-mode rules.
+flex-end / end / self-end: items are placed at the end of the cross axis. The difference again is subtle and is about respecting flex-direction rules vs. writing-mode rules.
+center: items are centered in the cross-axis
+baseline: items are aligned such as their baselines align */
+
+
+.item:nth-child(3) {font-size: 60px;}
+.item{font-size: 30px;
+color: white;}
+
+
+
+
+.item:nth-child(odd){background-color: blue;}
+.item:nth-child(even){background-color: red;}
+
+
+</style>
+</head>
+<body>
+
+
+    <!-- .container>.item{$}*5 -->
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+
+
+</body>
+</html>
